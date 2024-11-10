@@ -1,0 +1,242 @@
+%-------------------------
+% Resume in Latex
+% Author : Swati Kanta Mishra (Updated)
+% Based off of: https://github.com/swatikantamishra/resume
+% License : GPL-3.0 license
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% \usepackage[sfdefault]{FiraSans} % sans-serif
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Swati Kanta Mishra} \\ \vspace{1pt}
+    \small +91-7008163236 $|$ \href{mailto:swatikantamishra@gmail.com}{\underline{swatikantamishra@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/swatikantamishra/}{\underline{linkedin.com/in/swatikantamishra/}} $|$
+    \href{https://github.com/swatikantamishra}{\underline{github.com/swatikantamishra}}
+\end{center}
+
+
+
+\begin{document}
+
+% Professional Summary
+\vspace{-2mm}
+\section*{\textbf{Professional Summary}}
+\vspace{-2mm}
+Results-driven IT professional with over 10 years of experience in software development, ERP system management, 
+and technical project leadership. Skilled in PHP, PostgreSQL, cloud technology, and system optimization, 
+with a proven record of improving operational efficiency and driving team success in fast-paced environments.
+
+
+  
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: PHP, JavaScript, SQL (Postgres, MySQL), Java, Python, C/C++, HTML/CSS, R} \\
+     \textbf{Frameworks \& CMS}{: WordPress, CakePHP, React, Node.js, Flask} \\
+     \textbf{Developer Tools}{: Git, Docker, Jira, Slack, VS Code, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries \& Analytics}{: Google Analytics, SEO Optimization, pandas, NumPy, Matplotlib} \\
+     \textbf{Database \& ERP Systems}{: PostgreSQL, MySQL, Custom ERP Development}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+%-----------EXPERIENCE-----------
+\section{Experience}
+ \resumeSubHeadingListStart
+
+\resumeSubheading
+{Assistant IT Administrator}{April 2020 -- Present}
+{NIST University}{Berhampur, Odisha, India}
+\resumeItemListStart
+    \resumeItem{Led the development and maintenance of ERP systems using PHP, PostgreSQL, and cloud technologies to streamline academic and administrative processes.}
+    \resumeItem{Developed and integrated REST APIs for seamless interaction between systems, improving data handling and functionality.}
+    \resumeItem{Managed IT infrastructure, ensuring smooth operation of network services, server maintenance, and security compliance.}
+    \resumeItem{Supervised cross-functional teams, providing technical support to stakeholders and enhancing user experience.}
+    \resumeItem{\textbf{Team Lead:} Led cross-functional teams to deliver software projects on time, managing resources and providing technical guidance.}
+    \resumeItem{\textbf{Project Manager:} Oversaw project planning and execution, including budgeting, stakeholder communication, and risk management.}
+    \resumeItem{\textbf{System Administrator:} Maintained and optimized IT infrastructure, handling server setup, backups, and ensuring system availability.}
+    \resumeItem{\textbf{Database Administrator:} Managed PostgreSQL, MySQL, and MSSQL databases, optimizing query performance and ensuring data integrity.}
+    \resumeItem{\textbf{Developer:} Designed and developed applications using PHP, PostgreSQL, and REST APIs, contributing to both front-end and back-end functionalities.}
+    \resumeItem{\textbf{Tester:} Performed unit testing, load testing, and integration testing to ensure software quality and adherence to requirements.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Technical Project Manager (Remote)}{Jan 2020 -- Mar 2020}
+{Wemakeappz Technologies Pvt. Ltd.}{Bengaluru, Karnataka, India}
+\resumeItemListStart
+    \resumeItem{Led remote cross-functional teams in project planning, requirements gathering, and stakeholder management, ensuring timely project delivery.}
+    \resumeItem{Facilitated communication between distributed teams, clients, and stakeholders, managing project goals and timelines effectively.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Head of Department \& Faculty}{Sep 2015 -- Jan 2020}
+{Bharat Institute of Engineering \& Technology (BIET)}{Berhampur, Odisha, India}
+\resumeItemListStart
+    \resumeItem{Promoted to Head of Computer Science Department, managing faculty development and curriculum design while overseeing academic operations.}
+    \resumeItem{Developed and taught computer science courses, contributing to undergraduate and postgraduate education.}
+    \resumeItem{Upgraded campus infrastructure by implementing a 40 Mbps internet connection and establishing labs for CAD and simulation.}
+    \resumeItem{Implemented an employee and student attendance system, enhancing operational efficiency.}
+    \resumeItem{Managed the institute’s website, ensuring seamless operation and timely updates.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Senior Software Developer}{Jun 2015 -- Aug 2015}
+{Avant-Garde Technologies}{Kolkata, West Bengal, India}
+\resumeItemListStart
+    \resumeItem{Led the software development lifecycle from requirement analysis to testing, ensuring timely delivery and high-quality outcomes.}
+    \resumeItem{Collaborated with clients to gather requirements and provide technology-based solutions, enhancing functional efficiency.}
+    \resumeItem{Ensured software quality through testing and review, maintaining documentation for project requirements.}
+    \resumeItem{Guided junior team members, aligning their work with project goals and best practices.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Developer}{Nov 2014 -- Jun 2015}
+{PenguinCRM}{Kolkata, India}
+\resumeItemListStart
+    \resumeItem{Led the complete software development lifecycle, including requirement analysis, coding, testing, and maintenance.}
+    \resumeItem{Mapped client requirements and delivered tailored solutions, defining project scope and specifications.}
+    \resumeItem{Oversaw projects from conceptualization to execution, conducting needs assessments and feasibility studies.}
+    \resumeItem{Recommended technology-driven solutions to enhance operational efficiency.}
+    \resumeItem{Established quality standards and implemented systems to ensure compliance with Service Level Agreements (SLAs).}
+    \resumeItem{Documented software defects and reviewed design specifications for clarity.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Programmer}{Sep 2013 -- Oct 2014}
+{NIST Technology Consulting Services (NTCS)}{Berhampur, Odisha, India}
+\resumeItemListStart
+    \resumeItem{Contributed to the development and maintenance of a custom-built ERP system, gaining hands-on experience in software engineering principles.}
+    \resumeItem{Identified and resolved issues within the ERP, enhancing system functionality and user experience.}
+    \resumeItem{Collaborated with teams to gather requirements and conduct user testing.}
+    \resumeItem{Engaged in continuous learning, mastering relevant programming languages and tools.}
+    \resumeItem{Assisted in documenting system specifications and user manuals, improving knowledge transfer.}
+\resumeItemListEnd
+
+ \resumeSubHeadingListEnd
+%-----------PROJECT EXPERIENCE-----------
+\section{Project Experience}
+ \resumeSubHeadingListStart
+
+\resumeSubheading
+{EduGuru.org.in}{} %{August 2024 -- Present}
+{WordPress, PHP, MySQL}{}
+\resumeItemListStart
+    \resumeItem{Developed a tech education platform focused on AI/ML, Data Science, and Full Stack courses.}
+    \resumeItem{Implemented course enrollment, user profiles, and certificate issuance, leveraging WordPress customizations and MySQL for a seamless experience.}
+\resumeItemListEnd
+
+\resumeSubheading
+{University ERP System}{}% {April 2020 -- Present}
+{PHP, PostgreSQL}{}
+\resumeItemListStart
+    \resumeItem{Managed a comprehensive ERP system with over 50 modules (e.g., Academic Fees, Admission Information, Library, and Inventory Management).}
+    \resumeItem{Enhanced data handling efficiency and user experience through optimized PostgreSQL databases and module customizations.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Customized SugarCRM Solutions}{}%{November 2014 -- June 2015}
+{PenguinCRM}{}
+\resumeItemListStart
+    \resumeItem{Tailored CRM workflows and modules using SugarCRM, enhancing client sales and support functions.}
+    \resumeItem{Managed the full project lifecycle, from requirement gathering to implementation and post-deployment support.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Dynamic Web Development}{}%{June 2015 -- August 2015}
+{AGTS India (WordPress, CakePHP)}{}
+\resumeItemListStart
+    \resumeItem{Built secure, scalable websites using WordPress and CakePHP, focusing on custom themes, plugins, and MVC-based development.}
+    \resumeItem{Collaborated with clients to deliver solutions aligned with business objectives, supporting high-performance web functionalities.}
+\resumeItemListEnd
+
+ \resumeSubHeadingListEnd
+
+ 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {NIST Institute of Science and Technology}{Brahmapur (OD), IN}
+      {Master of Technology in Computer Science and Engineering}{Aug. 2021 -- Sept. 2023}
+    \resumeSubheading
+      {National Institute of Science and Technology}{Brahmapur (OD), IN}
+      {Master of Computer Applications}{Aug. 2010 -- Aug. 2013}
+  \resumeSubHeadingListEnd
+\end{document}
